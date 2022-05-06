@@ -5,9 +5,10 @@ This project contains a smart contract and script to deploy contract to rinkeby/
 # Environment Variables
 
 This project requires the following environment variables:
+```
 RINKEBY_URL=<ALCHEMY RINKEBY API URL>
 PRIVATE_KEY=<WALLET PRIVATE KEY>
-
+```
 # Usage
 ```shell
 npm i
