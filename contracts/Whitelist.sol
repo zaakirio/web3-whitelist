@@ -2,14 +2,14 @@
 pragma solidity ^0.8.0;
 
 contract Whitelist {
-    uint256 public maxAddresses;
+    uint8 public maxAddresses;
 
     // Set allowed addresses to true, false otherwise
     mapping(address => bool) public allowedAddresses;
 
-    uint256 public numAddresses;
+    uint8 public numAddresses;
 
-    constructor(uint256 _maxAddresses) public {
+    constructor(uint8 _maxAddresses) public {
         maxAddresses = _maxAddresses;
     }
 
